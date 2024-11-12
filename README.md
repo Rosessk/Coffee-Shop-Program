@@ -1,11 +1,3 @@
-# ws23365_EMATM0048
-Coursework of EMATM0048
-
-## Name: Isarapon Prasertstid
-
-## Link: [https://github.com/IsaraponPrasertstid/ws23365_EMATM0048.git](https://github.com/IsaraponPrasertstid/ws23365_EMATM0048)
-
-## Part 1:
 The Coffee Shop Program is created to simulate the coffee shop operation. The user can input sales quantity and make decision to add or remove baristas. The program will show the basic information such as expenditure, cash and stock. The aim of the Coffee Shop Program is to make a profit and avoid going bankrupt.
 
 In order to write code more easily and perform many operations for this task, I use an object-oriented programming approach to create multiple classes. To enhance code maintainability, I employ the principle of encapsulation. I also utilize the inheritance principle, allowing the child class to leverage the capabilities of the parent class.
@@ -77,44 +69,9 @@ This file contains Supplier class. Supplier class provides a supplier name and p
 This class includes methods:
   -	**get_price_from_supplier**: Method to get prices from each ingredient from a specific supplier.
     
-## Instructions for Running Part 1 Code
+## Instructions for Running Code
 1. Clone this repository: [GitHub Repository](https://github.com/IsaraponPrasertstid/ws23365_EMATM0048.git)
 2. Run the coffee shop program by using main.py
-
-## Part 2:
-I have to import another library
-1. For making HTTP requests
-   - import requests
-
-2. Analysing data
-   - import pandas as pd
-  - import numpy as np 
-3. Plot graph
-  - import matplotlib.pyplot as plt
-  - import seaborn as sns
-
-4. Fitting simple linear regression
-  - from sklearn.linear_model import LinearRegression
-
-5. splitting the dataset into the training set and test set
-  - from sklearn.model_selection import train_test_split
-6. Fitting polynomial
-  - from sklearn.preprocessing import PolynomialFeatures
-7. Finding error both MSE and R^2
-  - from sklearn.metrics import mean_squared_error, r2_score
-8. Convert a string containing a list into an actual python list object
-  - import ast 
-    
-## Instructions for Running Part 2 Code
-1. Clone this repository: [GitHub Repository](https://github.com/IsaraponPrasertstid/ws23365_EMATM0048.git)
-2. Install the fllowing packages
-   - pip install requests
-   - pip install pandas
-   - pip install numpy
-   - pip install matplotlib
-   - pip install seaborn
-   - pip install scikit-learn
-3. Run the data_analytic_eonet.ipynb
 
    **IMPORTANT**
 The old file I previously sent had a problem because the API changed data in that link and resulted in my analytic. During my last data analysis, I did not use the CSV file, which led to issues when the API was affected. In this new submission, I used the data from the old CSV file for direct analysis. However, there was a problem with a column called 'coordination' in the old file, so I had to make some corrections. That are the reason for this update.
