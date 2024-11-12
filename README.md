@@ -72,6 +72,3 @@ This class includes methods:
 ## Instructions for Running Code
 1. Clone this repository: [GitHub Repository](https://github.com/IsaraponPrasertstid/ws23365_EMATM0048.git)
 2. Run the coffee shop program by using main.py
-
-   **IMPORTANT**
-The old file I previously sent had a problem because the API changed data in that link and resulted in my analytic. During my last data analysis, I did not use the CSV file, which led to issues when the API was affected. In this new submission, I used the data from the old CSV file for direct analysis. However, there was a problem with a column called 'coordination' in the old file, so I had to make some corrections. That are the reason for this update.
